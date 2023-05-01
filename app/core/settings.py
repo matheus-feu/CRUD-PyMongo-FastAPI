@@ -3,6 +3,7 @@ from functools import lru_cache
 from dotenv import load_dotenv
 from pydantic import BaseSettings
 
+load_dotenv(".env")
 
 
 class Settings(BaseSettings):
@@ -19,7 +20,7 @@ class Settings(BaseSettings):
 
 
 @lru_cache()
-def get_settings():
+def get_settings() -> Settings:
     return Settings()
 
 
