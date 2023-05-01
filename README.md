@@ -1,3 +1,5 @@
+[![wakatime](https://wakatime.com/badge/user/3bd24664-869f-460a-94e1-b98da8136504/project/2b340b09-9039-4bfc-a6c3-e61e49baaa3e.svg)](https://wakatime.com/badge/user/3bd24664-869f-460a-94e1-b98da8136504/project/2b340b09-9039-4bfc-a6c3-e61e49baaa3e)
+
 # Pymongo com FastAPI - CRUD Bookstore
 
 Esta API é uma simples aplicação de CRUD de uma livraria, utilizando FastAPI e MongoDB.
