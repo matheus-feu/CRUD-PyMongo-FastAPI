@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crud-users-mongodb"
+version = "0.1.0"
+description = ""
+authors = ["Matheus Feu  <101346300+Havokzbr@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "crud_users_mongodb"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.95.1"}
+pymongo = "^4.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
